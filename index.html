@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sulasok.org</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h2>𝕾𝖙𝖚𝖉𝖊𝖓𝖙 𝕻𝖆𝖞𝖒𝖊𝖓𝖙 𝕱𝖔𝖗𝖒</h2>
+
+  <div class="container">
+   
+    <div class="form-container">
+      <form id="paymentForm">
+        <div class="form-group">
+          <label for="studentName">Student Name:</label>
+          <input type="text" id="studentName" required>
+        </div>
+        <div class="form-group">
+          <label for="tuitionFee">Tuition Fee:</label>
+          <input type="number" id="tuitionFee" required>
+        </div>
+        <div class="form-group">
+          <label for="miscellaneousFee">Miscellaneous Fee:</label>
+          <input type="number" id="miscellaneousFee" required>
+        </div>
+        <div class="form-group">
+          <label for="otherFee">Other Fee:</label>
+          <input type="number" id="otherFee">
+        </div>
+        <br>
+        
+        <button type="button" onclick="addPayment()">𝔖𝔲𝔟𝔪𝔦𝔱</button>
+      </form>
+    </div>
+
+    
+    <div class="summary" id="summarySection" style="display: none;">
+      <h3> Summary</h3>
+      <ul id="summaryList"></ul>
+      <div class="total-section">
+        <span id="totalLabel">Total FEE`s:</span>
+        <span id="totalAmount">$0</span>
+      </div>
+    </div>
+  </div>
+
+ 
+  <script src="script.js"></script>
+
+</body>
+</html>

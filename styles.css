@@ -1,0 +1,172 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f3f4f6;
+    margin: 0;
+    padding: 20px;
+    background-image: url(1.jpeg);
+    background-size: cover;
+}
+
+h2 {
+    color: #e9e2ee;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* input {
+    width: calc(100% - 16px); 
+    padding: 8px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+input.student-name,
+input.tuition,
+input.miscellaneous,
+input.other-fees {
+    margin-bottom: 15px;
+} */
+
+/* .student-name {
+    flex: 1;
+    padding: 15px; 
+    background-color: rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-height: 500px;
+    overflow: hidden;  */
+    
+/* 
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+ */
+
+.form-container {
+    flex: 1;
+    padding: 15px; 
+    background-color: rgba(255, 255, 255, 0.9); 
+   
+    border-radius: 8px;
+    max-height: 500px;
+    overflow: hidden; 
+}
+
+.form-group {
+    
+    width: calc(100% - 16px); 
+    padding: 1px;
+    font-size: 0.9rem;
+    
+    
+}
+
+
+    
+
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    font-size: 0.9rem; 
+    border-radius: 4px; 
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px; 
+    background-color: #01060b;
+    color: white;
+    font-size: 0.9rem; 
+    cursor: pointer;
+    margin-right: 8px; 
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+button:hover {
+    background-color: #f7fffb;  
+    color: #01060b;
+}
+
+.summary {
+    flex: 1;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 500px; 
+    overflow: hidden; 
+    order: 1; 
+}
+
+.summary ul {
+    list-style: none;
+    padding: 0;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.summary-item span {
+    font-weight: bold;
+}
+
+.summary-item .actions button {
+    background-color: transparent;
+    border: 1px solid #f7fffb;
+    color: #01060b;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.summary-item .actions button.edit {
+    border-color: #f7fffb;
+    color: #01060b;
+}
+
+.summary-item .actions button:hover {
+    background-color: #f7fffb;
+    
+    
+}
+
+.summary-item .actions button.edit:hover {
+    background-color: #f7fffb;
+    color: #01060b;
+    border-color: #0c0a0a;
+}
+
+.total-section {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.1rem; 
+    padding-top: 10px; 
+    border-top: 2px solid #ddd;
+}
+
+#totalAmount {
+    color: #020609;
+}
